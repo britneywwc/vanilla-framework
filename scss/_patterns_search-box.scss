@@ -55,6 +55,15 @@
         background-color: $colors--theme--background-hover !important;
       }
 
+      &:-webkit-autofill,
+      &:-webkit-autofill:active,
+      &:-webkit-autofill:focus {
+        caret-color: $colors--theme--text-default;
+        color: $colors--theme--text-default;
+        -webkit-text-fill-color: $colors--theme--text-default;
+        transition: background-color 5000s ease-in-out 0s;
+      }
+
       &:active,
       &:focus,
       &:-internal-autofill-selected,
